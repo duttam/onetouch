@@ -17,7 +17,7 @@ public class HelloWorldBean implements Serializable{
 	private String string;
 	@PostConstruct
 	public void init(){
-		string = "this is a first git project";
+		string = "this is second project";
 	}
 
 	public String getString() {
